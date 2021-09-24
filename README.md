@@ -5,6 +5,10 @@ A simple calendar application that allows a user to save events for each hour of
 * HTML
 * CSS
 * Javascript
+* JQuery
+* Moment.js
+* Bootstrap
+* font awesome for icons
 
 ## Website
 https://nicolepm.github.io/challenge5-work-day-scheduler/
