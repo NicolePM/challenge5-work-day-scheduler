@@ -1,0 +1,118 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    line-height: 1;
+    font-size: 16px;
+  }
+  
+  textarea {
+    color: black;
+    background: transparent;
+    border: none;
+    resize: none;
+    border-left: 1px solid #D7D7D5;
+    padding: 10px;
+  }
+  
+  .jumbotron {
+    text-align: center;
+    border-radius: 0;
+    height: 150px;
+    background-image: url("../images/hero.jpeg");
+	background-size:cover;
+	background-repeat: no-repeat;
+  }
+  
+.flex-text{
+	display:flex;
+	flex-flow:  wrap;
+	justify-content: flex-end;
+	color: white;
+	font-weight: bold;
+	font-size: 45px;
+}
+
+.flex-text-child{
+	display: flex;
+	justify-content: flex-end;
+	color: white;
+	font-weight: bolder;
+	font-size: 18px;
+	order: 2;
+	
+}
+  .description {
+    white-space: pre-wrap;
+  }
+  
+  .time-block {
+    text-align: center;
+    border-radius: 15px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  
+  .row {
+    white-space: pre-wrap;
+    height: 80px;
+    border-top: 1px solid white;
+  }
+  
+  .hour {
+    background-color: #ffffff;
+    color: #000000;
+    border-top: 1px dashed #000000;
+  }
+  
+  .past {
+    background-color: #D7D7D5;
+    color: white;
+  }
+  
+  .present {
+    background-color: red;
+    color: white;
+  }
+  
+  .future {
+    background-color: green;
+    color: white;
+  }
+  
+  .saveBtn {
+    border-left: 1px solid #D7D7D5;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #8CD2E0; /*#0B536A*/
+    color:#0B536A;
+  }
+  
+  .saveBtn i:hover {
+    font-size: 30px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /*** OVERWRITE - MEDIA QUERY FOR TABLETS AND SMALLER  ***/
+  /* This will be applied on any screen 768px and bellow */
+  @media screen and (max-width: 768px), screen and (max-width: 575px) {
+    .row {
+      height: auto;
+      margin-top: 20px;
+    
+    }
+  
+    .hour {
+      padding-right: 17%;
+    }
+  
+    .saveBtn {
+      border: 0;
+      border-radius: 0.25rem;
+      height: 50px;
+    }
+  
+    textarea {
+      min-height: 85px;
+      border: 0;
+    }
+  }
+  
