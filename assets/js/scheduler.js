@@ -1,5 +1,5 @@
 // declare variable(s)
-var todayDate = moment().format('dddd, MMM Do h:mm:ss A');
+var todayDate = moment().format('dddd, MMM Do h:mm A');
 
 
 
